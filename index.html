@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="wstyle.css" />
+    <title>Stay healthy</title>
+    <h1 id="tit"><u>-THE IMPORTANCE OF WATER IN OUR LIFE-</u></h1>
+    <img
+      src="https://images.thequint.com/thequint%2F2017-05%2F6c56c5c6-4839-4651-b556-a1a88548f23d%2F10028583-cc5f-4af7-960b-da3fd070dc4f.jpg?auto=format%2Ccompress&w=376&dpr=2.6"
+      height="350"
+      width="700"
+    />
+  </head>
+
+  <body>
+    <div>
+      <h2>What is the importance of water in human life?</h2>
+      <p>
+        Water carries nutrients to all cells in our body and oxygen to our
+        brain.
+      </p>
+      <p>
+        Water allows the body to absorb and assimilate minerals, vitamins, amino
+        acids, glucose and other substances.
+      </p>
+      <p>
+        Water flushes out toxins and waste. Water helps to regulate body
+        temperature.
+      </p>
+    </div>
+      <h2>The benefits of drinking water for the human body are:</h2>
+      <div class="b2"></div><ul>
+        <p>- maximize physical performance</p>
+        <p>- Significantly affects energy levels and brain function</p>
+        <p>- May help prevent and treat headaches.</p>
+        <p>- Drinking water giving you healthier skin.</p>
+      </ul>
+    </div>
+    <h1>[Calculate the amount of water your body needs here]</h1>
+<div>
+    <label><b>ADD YOUR WEIGHT:</b></label> 
+    <br>
+    <input id="wh" type="number" value="0" />
+</div>
+
+    <button onclick="waterneeds()"><b>CALCULATE</b></button>
+    <div>
+    <label><b>THE AMOUNT OF WATER YOU NEED IN LITERS:</b> </label> 
+    <br>
+    <input id="amoun" type="text" value="0"/>
+</div>
+<p> .                                                                                                                                  .</p>
+<h3>By Fatima ALTameemii💜</h3>
+  </body>
+</html>
+<script>
+    function waterneeds(){
+        const wight = document.getElementById("wh").value;
+        const watern = wight * 0.033;
+        document.getElementById("amoun").value = watern;
+    }
+</script>
